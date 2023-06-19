@@ -1,16 +1,18 @@
+import { Link } from "react-router-dom/dist";
+
 export default function Contacts() {
   return (
     <div className="contacts">
       Contacts
       <menu>
         <li>
-          <a>Adress</a>
+          <Link>Adress</Link>
         </li>
         <li>
-          <a>Phone</a>
+          <Link>Phone</Link>
         </li>
         <li>
-          <a>Mail</a>
+          <Link>Mail</Link>
         </li>
       </menu>
     </div>

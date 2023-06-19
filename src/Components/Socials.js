@@ -1,16 +1,18 @@
+import { Link } from "react-router-dom/dist";
+
 export default function Socials() {
   return (
     <div className="socials">
       Social Links
         <menu>
         <li>
-          <a>Link 1</a>
+          <Link>Link 1</Link>
         </li>
         <li>
-          <a>Link 2</a>
+          <Link>Link 2</Link>
         </li>
         <li>
-          <a>Link 3</a>
+          <Link>Link 3</Link>
         </li>
       </menu>
     </div>

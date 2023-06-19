@@ -1,25 +1,28 @@
+import { Link } from "react-router-dom/dist";
+import { HashLink } from "react-router-hash-link";
+
 export default function Nav(props) {
   return (
     <nav>
       {props.inFooter ? <div>Navigation</div> : null}
       <menu>
         <li>
-          <a>Home</a>
+          <HashLink smooth to="/#top">Home</HashLink>
         </li>
         <li>
-          <a>About</a>
+          <HashLink smooth to="/#about">About</HashLink>
         </li>
         <li>
-          <a>Menu</a>
+          <Link>Menu</Link>
         </li>
         <li>
-          <a>Reservations</a>
+          <Link to="/booking">Reservations</Link>
         </li>
         <li>
-          <a>Order Online</a>
+          <Link>Order Online</Link>
         </li>
         <li>
-          <a>Log&nbsp;In</a>
+          <Link>Log&nbsp;In</Link>
         </li>
       </menu>
     </nav>
