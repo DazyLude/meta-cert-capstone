@@ -1,6 +1,6 @@
 export default function Socials() {
   return (
-    <>
+    <div className="socials">
       Social Links
         <menu>
         <li>
@@ -13,6 +13,6 @@ export default function Socials() {
           <a>Link 3</a>
         </li>
       </menu>
-    </>
+    </div>
   );
 }

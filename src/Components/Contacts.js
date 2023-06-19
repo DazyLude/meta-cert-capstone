@@ -1,6 +1,6 @@
 export default function Contacts() {
   return (
-    <>
+    <div className="contacts">
       Contacts
       <menu>
         <li>
@@ -13,6 +13,6 @@ export default function Contacts() {
           <a>Mail</a>
         </li>
       </menu>
-    </>
+    </div>
   );
 }

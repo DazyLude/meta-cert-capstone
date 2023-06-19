@@ -1,6 +1,6 @@
 export default function Testimonials() {
   return (
-    <section className="Testimonials">
+    <section className="testimonials">
     </section>
   );
 }

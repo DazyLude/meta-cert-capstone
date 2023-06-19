@@ -1,7 +1,7 @@
 export default function Nav(props) {
   return (
     <nav>
-      {props.inFooter ? "Navigation" : null}
+      {props.inFooter ? <div>Navigation</div> : null}
       <menu>
         <li>
           <a>Home</a>
@@ -19,7 +19,7 @@ export default function Nav(props) {
           <a>Order Online</a>
         </li>
         <li>
-          <a>Log In</a>
+          <a>Log&nbsp;In</a>
         </li>
       </menu>
     </nav>
