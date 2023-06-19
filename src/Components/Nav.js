@@ -13,16 +13,16 @@ export default function Nav(props) {
           <HashLink smooth to="/#about">About</HashLink>
         </li>
         <li>
-          <Link>Menu</Link>
+          <Link to="/menu">Menu</Link>
         </li>
         <li>
           <Link to="/booking">Reservations</Link>
         </li>
         <li>
-          <Link>Order Online</Link>
+          <Link to="/order">Order Online</Link>
         </li>
         <li>
-          <Link>Log&nbsp;In</Link>
+          <Link to="/login">Log&nbsp;In</Link>
         </li>
       </menu>
     </nav>
