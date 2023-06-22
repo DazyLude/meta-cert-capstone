@@ -5,4 +5,5 @@ Main Page:
 ![image](https://github.com/DazyLude/meta-cert-capstone/assets/36658009/d38e10a6-68da-4c45-b97b-c369dc9332ce)
 
 Reservation Page:
-![Uploading image.png…]()
+![image](https://github.com/DazyLude/meta-cert-capstone/assets/36658009/88a7b949-9d96-4e58-a6fc-b8db2f5affa2)
+
